@@ -1,0 +1,137 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+        <title>Rondo</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                background-image: url(bg.jpeg);
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+            /* navbar  */
+            #links{
+                margin-left: 40%;
+            }
+            #icon{
+                margin-left: 7%;
+            }
+            .nav-link:hover{
+                text-decoration: underline;
+            }
+            /* hero  */
+            #heading{
+                margin-top: 13%;
+                margin-left: 3%;
+            }
+            #heading b{
+                font-weight: 900;
+            }
+            #hero-btn{
+                background-color: ;
+                margin-left: 3%;
+                margin-top: 3%;
+            }
+            #hero{
+                height: 62vh;
+            }
+            /* cards  */
+            #cards{
+                background-color: #F5E6CF;
+            }
+            #card{
+                background-color: #202020;
+                color: white;
+                text-align: center;
+                box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.411);
+                cursor: pointer;
+            }
+            #card:hover{
+                border: 2px solid white;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- navbar  -->
+        <div class="container-fluid">
+            <ul class="nav">
+                <li class="navbar-brand">
+                    <a href="#" class="nav-link text-dark"><h1>Rondo</h1></a>
+                </li>
+                <li class="nav-item mt-3" id="links">
+                    <a href="#" class="nav-link text-light">Dining</a>
+                </li>
+                <li class="nav-item mt-3">
+                    <a href="#" class="nav-link text-light">Bed</a>
+                </li>
+                <li class="nav-item mt-3">
+                    <a href="#" class="nav-link text-light">Living</a>
+                </li>
+                <li class="nav-item mt-3">
+                    <a href="#" class="nav-link text-light">Bath</a>
+                </li>
+                <li class="nav-item mt-3">
+                    <a href="#" class="nav-link text-light">Storage</a>
+                </li>
+                <li class="nav-item mt-3">
+                    <a href="#" class="nav-link text-light">Outdoors</a>
+                </li>
+                <li class="nav-item mt-4" id="icon">
+                    <a href="#" class="nav-link text-light p-1"><i class="bi bi-search"></i></a>
+                </li>
+                <li class="nav-item mt-4">
+                    <a href="#" class="nav-link text-light p-1"><i class="bi bi-person-circle"></i></a>
+                </li>
+                <li class="nav-item mt-4">
+                    <a href="#" class="nav-link text-light p-1"><i class="bi bi-bag"></i></a>
+                </li>
+            </ul>
+        </div>
+        <!-- hero  -->
+        <div class="container-fluid" id="hero">
+            <h1 class="text-light" id="heading">Buy the <b>furniture</b> that <br> makes you feel like at <b>home</b></h1>
+            <button class="btn btn-lg text-light btn-dark" id="hero-btn">Explore our catalog</button>
+        </div>
+        <!-- cards  -->
+        <div id="cards" class="p-5">
+            <div class="row m-3">
+                <div class="col-5 p-3 d-flex flex-column justify-content-center m-auto" id="card">
+                    <h1>Dining</h1>
+                    <img src="dining.jpg" alt="" width="100%">
+                </div>
+                <div class="col-5 p-3 d-flex flex-column justify-content-center m-auto" id="card">
+                    <h1>Bed</h1>
+                    <img src="bed.png" alt="" width="100%">
+                </div>
+            </div>
+            <div class="row m-3">
+                <div class="col-5 p-3 d-flex flex-column justify-content-center m-auto" id="card">
+                    <h1>Living</h1>
+                    <img src="living.jpg" alt="" width="100%">
+                </div>
+                <div class="col-5 p-3 d-flex flex-column justify-content-center m-auto" id="card">
+                    <h1>Bath</h1>
+                    <img src="bath.jpg" alt="" width="100%">
+                </div>
+            </div>
+            <div class="row m-3">
+                <div class="col-5 p-3 d-flex flex-column justify-content-center m-auto" id="card">
+                    <h1>Storage</h1>
+                    <img src="storage2.jpg" alt="" width="100%">
+                </div>
+                <div class="col-5 p-3 d-flex flex-column justify-content-center m-auto" id="card">
+                    <h1>Outdoors</h1>
+                    <img src="outdoor.jpg" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
